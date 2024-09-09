@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex & Responsividade</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+        .box:hover{
+            opacity: 0.5;
+        }
+        .box {
+            background: #335599;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: courier;
+            font-weight: 600;
+        }
+        .yellow{
+            background: yellow;
+            min-width: 20vw;
+            min-height: 20vh;
+        }
+
+        .red{
+            background: red;
+            min-width: 20vw;
+            min-height: 20vh;
+        }
+
+        .green{
+            background: green;
+            min-width: 20vw;
+            min-height: 20vh;
+        }
+        
+        .blue{
+            background: blue;
+            min-width: 20vw;
+            min-height: 20vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box yellow">
+        <span>
+            Amarela
+        </span>
+    </div>
+    <div class="box red">
+        <span>
+            Vermelha
+        </span>
+    </div>
+    <div class="box green">
+        <span>
+            Verde
+        </span>
+    </div>
+    <div class="box blue">
+        <span>
+            Azul
+        </span>
+    </div>
+
+</body>
+
+</html>
